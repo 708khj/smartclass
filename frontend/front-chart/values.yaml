@@ -11,8 +11,8 @@ replicas:
   revisionHistoryLimit: 0
 
 image:
-  version: main-18f8107
-  repository: 142373294051.dkr.ecr.us-east-1.amazonaws.com/lms-site
+  version: main-d162c23
+  repository: 142373294051.dkr.ecr.us-east-1.amazonaws.com/frontend
   pullPolicy: IfNotPresent
 
 service:
