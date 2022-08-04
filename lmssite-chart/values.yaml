@@ -4,7 +4,7 @@
 
 metadata:
   name: 'lms-site'
-  namespace: 'smartclass'
+  namespace: 'test-ingress'
 
 replicas:
   count: 1
