@@ -11,10 +11,11 @@ replicas:
   revisionHistoryLimit: 0
 
 image:
-  version: main-4de1f55
+  version: main-5d5a5d4
   repository: 142373294051.dkr.ecr.us-east-1.amazonaws.com/lms-site
   pullPolicy: IfNotPresent
 
 service:
   type: NodePort
   port: 80
+  containerPort: 30000
